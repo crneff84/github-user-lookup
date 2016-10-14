@@ -19,7 +19,8 @@ This application is designed to allow users to input a GitHub username and the a
 
 * Clone this repository to your desktop
 * In terminal, navigate to /**_github-user-lookup_**
-* Create .env file containing API key
+* Create .env file in the top directory of your project containing API key in the following format:
+  * exports.apiKey = "YOUR_API_KEY_GOES_HERE";
 * Run "npm install"
 * Run "bower install"
 * Run "gulp build"
